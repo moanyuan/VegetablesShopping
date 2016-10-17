@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/product_pprogress">
+
+        <ImageView
+            android:id="@+id/iv_input_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/tb_37"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:text="名字"/>
+
+        <TextView
+            android:id="@+id/tv_save_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:text="保存"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入您的昵称"
+        android:background="@null"/>
+
+</LinearLayout>

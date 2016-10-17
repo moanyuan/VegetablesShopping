@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_huiyuan">
+        
+        <ImageView 
+            android:id="@+id/rc_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tb_37"/>
+        
+        <TextView 
+            android:layout_toRightOf="@id/rc_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/back_white"
+            android:textSize="16sp"
+            android:text="返回"/>
+        
+        <ImageView 
+            android:id="@+id/rc_touxiang"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cai_08"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/back_white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/rc_touxiang"
+            android:text=""/>
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特权功能"/>
+        
+        <TextView 
+            android:background="@drawable/shape_me_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="会员卡充值有赠送，充200送20，充500送60，并可参加公司组织基地的半日游活动"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

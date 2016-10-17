@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_shopping_cart"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/pro_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fanqie_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/pro_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="番茄"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/pro_shopPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="￥15.00"
+                android:textColor="@color/back_green"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" >
+
+                <!-- 加号 -->
+
+                <ImageView
+                    android:id="@+id/pro_reduce"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/iv_subbit" />
+
+                <TextView
+                    android:id="@+id/pro_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/pro_reduce"
+                    android:padding="10dp"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+                <!-- 减号 -->
+
+                <ImageView
+                    android:id="@+id/pro_add"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/pro_count"
+                    android:src="@drawable/iv_add" />
+
+                <ImageView
+                    android:id="@+id/pro_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/bt_sc" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/back_gray_light" />
+
+</LinearLayout>

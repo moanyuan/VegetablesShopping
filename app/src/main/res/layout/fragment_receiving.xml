@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:id="@+id/iv_re_product"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/qq_tupian"/>
+
+        <TextView
+            android:id="@+id/tv_re_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_re_product"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:text="商品名称"/>
+
+        <Button
+            android:id="@+id/bt_look_over"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/iv_re_product"
+            android:background="@drawable/shape_bt_ob_pay"
+            android:layout_marginRight="100dp"
+            android:layout_alignParentBottom="true"
+            android:textSize="16sp"
+            android:text="查看物流"/>
+
+        <TextView
+            android:id="@+id/tv_re_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/record_red"
+            android:textSize="20sp"
+            android:text="15:00"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/iv_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:src="@drawable/tb_25"/>
+
+            <TextView
+                android:id="@+id/tv_send_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:textSize="21sp"
+                android:text="已送达"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

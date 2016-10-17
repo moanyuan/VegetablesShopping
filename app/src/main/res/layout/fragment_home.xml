@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back_white"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common_top"/>
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/home_arl"
+            android:layout_width="match_parent"
+            android:layout_height="138dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:background="@color/back_gray_light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="138dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/logo_01"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_maodou"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:id="@+id/iv_maodou"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/topbar_bg"
+                        android:padding="5dp"
+                        android:src="@drawable/maodou_1" />
+
+                    <TextView
+                        android:id="@+id/tv_maodou"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="毛豆"/>
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_shijian"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textSize="10sp"
+                        android:textColor="@color/black"
+                        android:text="1小时2分30秒80"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_gua"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_gua"
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/topbar_bg"
+                        android:src="@drawable/gua_1" />
+
+                    <TextView
+                        android:id="@+id/tv_gua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="旱黄瓜"/>
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_shijian"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textSize="10sp"
+                        android:textColor="@color/black"
+                        android:text="1小时2分30秒80"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_huang"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_huang"
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:padding="5dp"
+                        android:background="@drawable/topbar_bg"
+                        android:src="@drawable/huang_1" />
+
+                    <TextView
+                        android:id="@+id/tv_huang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="黄秋葵"/>
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_shijian"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:textSize="10sp"
+                        android:textColor="@color/black"
+                        android:text="1小时2分30秒80"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:background="@color/back_gray_light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="138dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/logo_02"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_sheng"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:id="@+id/iv_sheng"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/topbar_bg"
+                        android:padding="5dp"
+                        android:src="@drawable/guo_1" />
+
+                    <TextView
+                        android:id="@+id/tv_sheng"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="圣女果"/>
+
+                    <RelativeLayout
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_tj"
+                        android:layout_gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_yj_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:layout_alignParentRight="true"
+                            android:textSize="6sp"
+                            android:textColor="@color/back_white"
+                            android:text="¥30.00"/>
+
+                        <TextView
+                            android:id="@+id/tv_tj_01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/back_white"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:text="¥15.00"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_siji"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_siji"
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/topbar_bg"
+                        android:src="@drawable/dou_1" />
+
+                    <TextView
+                        android:id="@+id/tv_siji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="四季豆"/>
+
+
+                    <RelativeLayout
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_tj"
+                        android:layout_gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_yj_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="6dp"
+                            android:textSize="6sp"
+                            android:textColor="@color/back_white"
+                            android:text="¥30.00"/>
+
+                        <TextView
+                            android:id="@+id/tv_tj_02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/back_white"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:text="¥15.00"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_jiao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_jiao"
+                        android:layout_width="104dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="12dp"
+                        android:padding="5dp"
+                        android:background="@drawable/topbar_bg"
+                        android:src="@drawable/jiao_1" />
+
+                    <TextView
+                        android:id="@+id/tv_jiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/black"
+                        android:text="甜椒"/>
+
+                    <RelativeLayout
+                        android:layout_width="104dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/bg_tj"
+                        android:layout_gravity="center" >
+
+                        <TextView
+                            android:id="@+id/tv_yj_03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="6dp"
+                            android:gravity="right"
+                            android:textSize="6sp"
+                            android:textColor="@color/back_white"
+                            android:text="¥30.00"/>
+
+                        <TextView
+                            android:id="@+id/tv_tj_03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:textColor="@color/back_white"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:text="¥15.00"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/back_gray_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="新品"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_fanqie"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:id="@+id/iv_fanqie"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topbar_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/fanqie_1" />
+
+                <TextView
+                    android:id="@+id/tv_fanqie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="番茄"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/xp_price1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/back_green"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="12dp"
+                        android:text="¥15.00"/>
+
+                    <TextView
+                        android:id="@+id/tv_c_price1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/xp_price1"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="22dp"
+                        android:textColor="@color/gray_gray"
+                        android:textSize="10sp"
+                        android:text="菜场价 : ¥17"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_muer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:id="@+id/iv_muer"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topbar_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/muercai_1" />
+
+                <TextView
+                    android:id="@+id/tv_muer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="木耳菜"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/xp_price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/back_green"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="12dp"
+                        android:text="¥15.00"/>
+
+                    <TextView
+                        android:id="@+id/tv_c_price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/xp_price2"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="22dp"
+                        android:textSize="10sp"
+                        android:textColor="@color/gray_gray"
+                        android:text="菜场价 : ¥17"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/back_gray_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="热卖产品"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_xiaoqingcai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:id="@+id/iv_xiaoqingcai"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topbar_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/xiaoqingcai_1" />
+
+                <TextView
+                    android:id="@+id/tv_xiaoqingcai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="小青菜"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_xianggu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="185dp"
+                    android:id="@+id/iv_xianggu"
+                    android:layout_gravity="center"
+                    android:background="@drawable/topbar_bg"
+                    android:padding="5dp"
+                    android:src="@drawable/xianggu_1" />
+
+                <TextView
+                    android:id="@+id/tv_xianggu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="香菇"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

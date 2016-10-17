@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:id="@+id/iv_ob_product"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/qq_tupian"/>
+
+        <TextView
+            android:id="@+id/tv_ob_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_ob_product"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:text="商品名称"/>
+
+        <TextView
+            android:id="@+id/tv_ob_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/record_red"
+            android:textSize="20sp"
+            android:text="15:00"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/bt_cancel_order"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bt_ob"
+            android:layout_marginRight="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:text="取消订单"/>
+
+        <Button
+            android:id="@+id/bt_payment"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_bt_ob_pay"
+            android:textSize="16sp"
+            android:text="付款"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

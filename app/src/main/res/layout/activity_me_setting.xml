@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center_vertical"
+        android:background="@color/back_green">
+        
+        <ImageView 
+            android:id="@+id/iv_zhanghu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/detail_back"/>
+        
+        <TextView 
+            android:layout_toRightOf="@id/iv_zhanghu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/back_white"
+            android:text="我的账户"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="账号与安全"/>
+        
+        <ImageView 
+            android:id="@+id/bg_jinru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bg_jinru"/>
+        
+        <TextView 
+            android:id="@+id/tv_me_protect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bg_jinru"
+            android:layout_marginRight="10dp"
+            android:text="已保护"/>
+        
+         <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toLeftOf="@id/tv_me_protect"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/me_suo"/> 
+    </RelativeLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/back_gray_light"/>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical">
+        
+        <TextView 
+            android:id="@+id/me_tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="消息提醒"/>
+        
+        
+        
+    </RelativeLayout>
+    
+</LinearLayout>
