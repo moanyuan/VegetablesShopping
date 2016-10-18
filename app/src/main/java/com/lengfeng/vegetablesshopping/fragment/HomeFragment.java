@@ -343,14 +343,19 @@ public class HomeFragment extends Fragment implements OnClickListener {
 						tv_time.setVisibility(View.GONE);
 					}
 				case 2:
-					tv_maodou.setText(item.get(0).getGoods_name());
-					Picasso.with(getActivity()).load(item.get(0).getImage_default()).into(iv_maodou);
+					if (item.size()>0){
+						tv_maodou.setText(item.get(0).getGoods_name());
+						Picasso.with(getActivity()).load(item.get(0).getImage_default()).into(iv_maodou);
 
-					tv_gua.setText(item.get(1).getGoods_name());
-					Picasso.with(getActivity()).load(item.get(1).getImage_default()).into(iv_gua);
+						tv_gua.setText(item.get(1).getGoods_name());
+						Picasso.with(getActivity()).load(item.get(1).getImage_default()).into(iv_gua);
 
-					tv_huang.setText(item.get(2).getGoods_name());
-					Picasso.with(getActivity()).load(item.get(2).getImage_default()).into(iv_huang);
+						tv_huang.setText(item.get(2).getGoods_name());
+						Picasso.with(getActivity()).load(item.get(2).getImage_default()).into(iv_huang);
+					}else {
+						return;
+					}
+
 					break;
 
 				case 3:

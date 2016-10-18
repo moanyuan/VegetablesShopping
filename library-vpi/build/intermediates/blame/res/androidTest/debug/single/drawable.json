@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\news_tab_item_bg_select.9.png",
+        "source": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\news_tab_item_bg_select.9.png"
+    },
+    {
         "merged": "D:\\AS\\VegetablesShopping\\library-vpi\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi__tab_indicator.xml",
         "source": "D:\\AS\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi__tab_indicator.xml"
     },
@@ -8,7 +12,15 @@
         "source": "D:\\AS\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\news_tab_item_bg_select.9.png"
     },
     {
+        "merged": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\news_tab_normal_bg.xml",
+        "source": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\news_tab_normal_bg.xml"
+    },
+    {
         "merged": "D:\\AS\\VegetablesShopping\\library-vpi\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\news_tab_normal_bg.xml",
         "source": "D:\\AS\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\news_tab_normal_bg.xml"
+    },
+    {
+        "merged": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\VegetablesShopping\\library-vpi\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi__tab_indicator.xml"
     }
 ]
